@@ -1,0 +1,511 @@
+body {
+    background-color: rgb(80, 155, 245);
+    background-image: url("https://campaigns-test.scdn.co/images/premium_dancer.png");
+    background-size: auto;
+    background-position: right;
+    background-position-y: -1%;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: monospace;
+    letter-spacing: 0pt;
+}
+
+#menu { /*Barra de Menu*/
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#menu{
+    font-size: 11pt;
+    padding: 15pt;
+    background-color: rgba(0,0,0,0.6);
+}
+
+#menu img{
+    padding: 3px;
+    margin-left: 60px;
+    position: absolute;
+    width: 130px;
+}
+
+#menu ul{
+    padding-right: 60pt;
+    text-align: right;
+}
+
+#menu li{
+    display: inline; 
+    padding-left: 11px;
+    padding-right: 11px;
+}
+
+#menu barra{
+    color: white;
+}
+
+#menu a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#menu a:hover{
+    color: rgb(0,202,78);
+}
+
+#conteudo h1{
+    font-weight: bold;
+    color: white;
+    margin-left: 5%;
+    margin-top: 10%;
+    font-size: 55pt;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#conteudo h2{
+    color: white;
+    font-size: 18pt;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 2.5%;
+    margin-bottom: 5%;
+}
+#conteudo h3{
+       font-size: 8pt;
+       color: white;
+       margin-left: 5%;
+       margin-top: 2%;
+}
+#conteudo a{
+    color: white;
+}
+#conteudo button{
+    font-size: 11pt;
+    letter-spacing: 1pt; 
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: rgb(0,202,78);
+    height: 32pt;
+    margin-left: 5%;
+    margin-top: 2.5%;
+    width: 16%;
+    border: none;
+    border-radius: 20pt;
+    outline:none;
+}
+
+#conteudo button:hover{
+    background-color: #00EB59;
+    letter-spacing: 2pt;
+    font-size: 12pt;
+}
+
+#meio{/*Parte do meio*/
+    
+    float: right;
+    margin-top: 2%;
+    top: 0;
+    background-color: rgb(255,255,255);
+    width: 100%;
+    height: 1060px;
+}
+
+#meio img{ /*Tamanho padrão das img no meio*/
+    padding: 3px;
+    margin-top: 80px;
+    margin-left: 100px;
+    width: 130px;
+}
+/*----------------------------------------------------------------------------*/
+
+#meio #musica img{/*1º Icone*/
+   margin-top: 0%;
+   margin-left: 13%;
+}
+
+#meio #musica h1{
+    font-size: 30pt;
+    margin-top: 5%;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+#meio #musica h2{
+    font-size: 14pt;
+    color: black;
+    text-align: left;
+    margin-top: 0%;
+    margin-left: 10%;
+    font-weight: bold;
+}
+#meio #musica h3{
+    font-size: 10pt;
+    color: gray;
+    text-align: left;
+    margin-left: 12.5%;
+    font-weight: bold;
+}
+#meio #anuncio{
+    margin-top: -21.7%;
+}
+#meio #anuncio img{/*2º Icone*/
+    margin-left: 34.5%;
+}
+#meio #anuncio h2{
+    font-size: 14pt;
+    color: black;
+    text-align-last: center;
+    margin-top: 0%;
+    margin-left: -20%;
+    text-align: left;
+    font-weight: bold;
+}
+#meio #anuncio h3{
+    text-align: left;
+    margin-left: 32%;
+    font-size: 10pt;
+    font-weight: bold;
+    color: gray;
+}
+#meio #retro{ /* 3º Icone nota: retro é de "Retrocompatibilidade"*/
+    margin-top: -17%;
+}
+#meio #retro img{
+    margin-top: 0%;
+    margin-left: 56%;
+}
+#meio #retro h2{
+    font-size: 14pt;
+    font-weight: bold;
+    margin-left: 52%;
+    margin-top: 0%;
+}
+#meio #retro h3{
+    margin-left: 52.5%;
+    font-size: 10pt;
+    font-weight: bold;
+    color: gray;
+    }
+#meio #faixas{
+    margin-top: -15.5%;
+    }
+    
+#meio #faixas img{/*4º Icone*/
+    margin-top: 0%;
+    margin-left: 79.5%;
+}
+#meio #faixas h2{
+    font-size: 14pt;
+    font-weight: bold;
+    text-align-last: center;
+    margin-left: 70%;
+    margin-top: 0%;
+}
+#meio #faixas h3{
+    margin-left: 76%;
+    font-size: 10pt;
+    font-weight: bold;
+    color: gray;
+}
+/*----------------------------------------------------------------------------*/
+
+#pagamento #titulo h1{
+    margin-top: 5%;
+    position: relative;
+    margin-left: 8%;
+    color: black;
+    font-weight: bold;
+    font-size: 28pt;
+}
+#pagamento #titulo h3{
+    position: relative;
+    margin-left: 35%;
+    color: black;
+    font-size: 14pt;
+}
+
+#pagamento #titulo ul{
+    font-size: 18pt;
+    color: black;
+    position: relative;
+    font-weight: bold;
+    text-align: right;
+    padding-left: 2pt;
+    padding-right: 2pt;
+    margin-top: 5%;
+}
+
+#pagamento #titulo li{
+    display: inline;
+    padding-right: 20%;
+}
+
+#pagamento #pagopc{
+    width: 200pt;
+    height: 220pt;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 9%;
+    box-shadow: 0px 0px 2px 2px gainsboro;
+}
+
+#pagamento #pagopc #teste{
+    width: 120pt;
+    height: 20pt;
+    background-color: rgb(63, 158, 215);
+    border-radius: 5px;
+    position: absolute;
+    margin-top: 10%;
+    font-family: fantasy;
+    margin-left: 5%;
+    box-shadow: 0px 0px 2px 2px gainsboro;
+}
+
+#pagamento #pagopc #teste h3{
+    color: white;
+    font-weight: inherit;
+    font-size: 12pt;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+}
+
+#pagamento #pagopc h1{
+    margin-top: 25%;
+    margin-left: 5%;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+#pagamento #pagopc h2{
+    margin-top: 0%;
+    margin-left: 5%;
+    font-size: 8pt;
+    font-weight: inherit;
+}
+
+#pagamento #pagopc #imgs{/*Icones*/
+    margin-left: 5%;
+}
+#pagamento #pagopc img{
+    margin-top: 0%;
+    margin-left: 1%;
+    margin-right: -5%;
+    width: 29px;
+    height: 20px;
+}
+#pagamento #pagopc #i4{
+    width: 45px;
+    height: 20px;
+}
+
+#pagamento #pagopc button{
+    font-size: 12pt;
+    letter-spacing: 1pt;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: rgb(0,202,78);
+    height: 20%;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    border: none;
+    border-radius: 30pt;
+    outline:none;
+}
+
+#pagamento #pagopc button:hover{
+    background-color: #00EB59;
+    letter-spacing: 2pt;
+}
+
+#pagamento #pagopc h4{
+    font-size: 7pt;
+    color: grey;
+    margin-left: 5%;
+}
+
+#pagamento #pagopc a{
+    color: black;
+}
+
+#pagamento #pagopc1{
+    width: 200pt;
+    height: 220pt;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 36.5%;
+    box-shadow: 0px 0px 2px 2px gainsboro;
+}
+#pagamento #pagopc1 h1{
+    margin-top: 10%;
+    margin-left: 5%;
+    font-size: 10pt;
+    font-weight: bold;
+}
+#pagamento #pagopc1 h2{
+    margin-top: 0%;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 8pt;
+    font-weight: inherit;
+}
+#pagamento #pagopc1 img{
+    margin-left: 5%;
+    margin-top: 0%;
+    width: 32px;
+    height: 20px;
+}
+#pagamento #pagopc1 select{
+    margin-left: 7%;
+    padding: 5%;
+    font-size: 11pt;
+    width: 86%;
+    border-radius: 3px;
+    background-color: white;
+    border-color: gray;
+}
+#pagamento #pagopc1 button{
+    font-size: 12pt;
+    letter-spacing: 1pt;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: rgb(0,202,78);
+    height: 20%;
+    margin-left: 10%;
+    margin-top: 2.5%;
+    width: 80%;
+    border: none;
+    border-radius: 30pt;
+    outline:none;
+}
+
+#pagamento #pagopc1 button:hover{
+    background-color: #00EB59;
+    letter-spacing: 2pt;
+}
+
+#pagamento #pagopc1 h4{
+    font-size: 7pt;
+    color: grey;
+    margin-left: 5%;
+}
+
+#pagamento #pagopc1 a{
+    color: black;
+}
+
+#pagamento #pagopc2{
+    width: 200pt;
+    height: 220pt;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 65%;
+    box-shadow: 0px 0px 2px 2px gainsboro;
+}
+#pagamento #pagopc2 h1{
+    margin-top: 10%;
+    margin-left: 5%;
+    font-size: 10pt;
+    font-weight: bold;
+}
+#pagamento #pagopc2 h2{
+    margin-top: 0%;
+    margin-left: 5%;
+    text-align: justify;
+    margin-right: 5%;
+    line-height: 1.5;
+    font-size: 7.8pt;
+    font-weight: inherit;
+}
+#pagamento #pagopc2 img{
+    margin-left: 5%;
+    margin-top: 0%;
+    width: 25px;
+}
+#pagamento #pagopc2 button{
+    font-size: 12pt;
+    letter-spacing: 1pt;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: rgb(0,202,78);
+    height: 20%;
+    margin-left: 10%;
+    margin-top: 2.5%;
+    width: 80%;
+    border: none;
+    border-radius: 30pt;
+    outline:none;
+}
+
+#pagamento #pagopc2 button:hover{
+    background-color: #00EB59;
+    letter-spacing: 2pt;
+}
+#pagamento #pagopc2 h4{
+    font-size: 7pt;
+    color: grey;
+    margin-left: 5%;
+}
+
+#pagamento #pagopc2 a{
+    color: black;
+}
+#end{ /*Redapé*/
+    position: absolute;
+    float: right;
+    margin-top: 125%;
+    top: 0;
+    background-color: rgb(0,0,0);
+    width: 100%;
+    height: 17%;
+}
+#end ul{
+    margin-top: 1.5%;
+    margin-left: 2%;
+    font-size: 8pt;
+    font-weight: bold;
+}
+#end li{
+    display: inline;
+    margin-left: 1%;
+}
+#end li a{
+    color: gray;
+    text-decoration: none;
+}
+#end li a:hover{
+    color: darkslategray;
+}
+#end img{
+    height: 35px;
+    width: 25px;
+    margin-top: 2%;
+    margin-left: 91.5%;
+}
+#end h2{
+    margin-top: -2%;
+    font-size: 8pt;
+    margin-left: 88%;
+}
+#end h2 a{
+    color: gray;
+    text-decoration: none;
+}
+#end h2 a:hover{
+    color: darkslategray;
+}
+#end h1{
+    margin-top: -2%;
+    margin-left: 85%;
+    color: gray;
+    font-size: 8pt;
+}

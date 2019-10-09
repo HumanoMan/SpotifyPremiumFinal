@@ -1,0 +1,11 @@
+{
+    "elements": {
+        "barra": {},
+        "h1": {}
+    },
+    "attributes": {
+        "onselectstart": {
+            "context": "body"
+        }
+    }
+}
