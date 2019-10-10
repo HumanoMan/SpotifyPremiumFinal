@@ -216,14 +216,12 @@ body {
 
 #pagamento #titulo h1{
     margin-top: 5%;
-    position: relative;
     margin-left: 8%;
     color: black;
     font-weight: bold;
     font-size: 28pt;
 }
 #pagamento #titulo h3{
-    position: relative;
     margin-left: 35%;
     color: black;
     font-size: 14pt;
